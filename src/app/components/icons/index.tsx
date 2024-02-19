@@ -1,4 +1,4 @@
 import { Envelope } from "./envlop";
 import { Linkedin } from "./linkedin";
-import { Medium } from "./medium";
+import { Watsapp } from "./watsap";
 import { Twitter } from "./twitter";

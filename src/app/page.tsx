@@ -3,9 +3,9 @@ import Sidebar from "./components/sidebar";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-green">
       
-
+      Page
     </main>
   );
 }
