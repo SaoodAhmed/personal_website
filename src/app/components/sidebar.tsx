@@ -23,13 +23,13 @@ const Sidebar: React.FC<{ data: PersonalDataType }> = ({ data }) => {
         <h1 className=" text-yellow">
           {name}
         </h1>
-        <h2 className="scroll-m-20 mb-8  pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+        <h2 className="mb-6 ">
           {role}
         </h2>
-        <p className="mb-2 ">{education[0]}</p>
-        <p className="mb-2">{education[1]}</p>
+        <p className="mb-5 leading-normal tracking-wider">{education[0]}</p>
+        <p className="mb-5 leading-normal tracking-wider">{education[1]}</p>
         <div className="text-center mb-4 mt-4 sm:mt-8">
-          <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight text-center mb-2">
+          <h3 className="">
             Contact me
           </h3>
           <div className="flex flex-row justify-center gap-2">
