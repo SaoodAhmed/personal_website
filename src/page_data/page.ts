@@ -35,3 +35,29 @@ export const aboutMe:AboutMEDataType = {
         "I'm committed to continuous learning and staying updated with the latest industry trends. Whether it's tackling complex algorithms or finding creative solutions to UI/UX challenges, I embrace every opportunity to expand my skill set."
     ]
 }
+
+export const skills = {
+	soft: [
+		{ icon: "👂🏼", text: "Active Listening" },
+		{ icon: "💬", text: "Effective Communication" },
+		{ icon: "👥", text: "Collaboration" },
+		{ icon: "⽓", text: "Teamwork" },
+		{ icon: "💡", text: "Creative Problem Solving" },
+		{ icon: "⌛️", text: "Time management" },
+	],
+	hard: [
+		{ icon: "N ➡️", text: "Next.js" },
+		{ icon: "🚀", text: "React.js" },
+		{ icon: "🟢JS", text: "Node.js" },
+		{ icon: "T🌬️W", text: "Tailwind CSS" },
+		{ icon: "ʦ", text: "TypeScript" },
+		{ icon: "💻", text: "TypeScript" },
+		{ icon: "☕", text: "Java" },
+		{ icon: "🐍", text: "Python" },
+		{ icon: "📈", text: "SEO" },
+		{ icon: "💾", text: "PostgreSQL" },
+		{ icon: "📈", text: "Data Structures and Algorithms" },
+		{ icon: "🎨", text: "Shadcn/ui" },
+		{ icon: "🧠", text: "Sanity(Headless CMS)" },
+	],
+};

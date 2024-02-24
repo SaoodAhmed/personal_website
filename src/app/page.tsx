@@ -5,7 +5,7 @@ import { aboutMe } from "@/page_data/page";
 
 export default function Home() {
   return (
-    <main className="bg-green">
+    <main className="">
       <AboutMe data = {aboutMe}/>
       
       Page
