@@ -1,12 +1,33 @@
 import React from "react";
 import Skills from "./skills";
 
+
 interface AboutMEDataType {
   title: string;
   body: string[];
 }
 
-const AboutMe: React.FC<{ data: AboutMEDataType }> = ({ data, Skills }) => {
+
+
+
+
+type hardSkillType = {
+  icon:string,
+  text:string,
+}
+type softSkillType = {
+  icon:string,
+  text:string,
+}
+interface SkillsType {
+	soft: softSkillType[]
+	hard: hardSkillType[]
+};
+
+
+
+
+const AboutMe: React.FC<{ data: AboutMEDataType, skillsData:SkillsType }> = ({ data, skillsData}) => {
   const { title, body } = data;
   return (
     <section className="">
@@ -16,7 +37,7 @@ const AboutMe: React.FC<{ data: AboutMEDataType }> = ({ data, Skills }) => {
           <p key={i} className=" tracking-normal leading-normal">{el}</p>
         ))}
       </div>
-      <Skills data={Skills}/>
+      <Skills data={skillsData}/>
     </section>
   );
 };

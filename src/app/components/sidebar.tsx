@@ -36,13 +36,13 @@ const Sidebar: React.FC<{ data: PersonalDataType }> = ({ data }) => {
             <Link href={contactLinks[0]} aria-label="">
               <Envelope className={"icons-contactme"} />
             </Link>
-            <Link href={''} aria-label="">
+            <Link href={contactLinks[1]} aria-label="">
               <Twitter className={"icons-contactme"} />
             </Link>
-            <Link href={contactLinks[1]} aria-label="">
+            <Link href={contactLinks[2]} aria-label="">
               <Linkedin className={"icons-contactme"} />
             </Link>
-            <Link href={contactLinks[2]} aria-label="">
+            <Link href={contactLinks[3]} aria-label="">
               <IoLogoWhatsapp className="icons-contactme" />
             </Link>
           </div>
