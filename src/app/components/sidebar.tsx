@@ -26,10 +26,13 @@ const Sidebar: React.FC<{ data: PersonalDataType }> = ({ data }) => {
         <h2 className="mb-6 ">
           {role}
         </h2>
+        <div className="flex flex-col justify-start">
+
         <p className="mb-5 leading-normal tracking-wider">{education[0]}</p>
         <p className="mb-5 leading-normal tracking-wider">{education[1]}</p>
         <div className="text-center mb-4 mt-4 sm:mt-8">
-          <h3 className="">
+        </div>
+          <h3 className=" mx-auto">
             Contact me
           </h3>
           <div className="flex flex-row justify-center gap-2">
