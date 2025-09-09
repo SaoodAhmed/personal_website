@@ -17,16 +17,16 @@ type SkillsType = {
 
 const Skills: React.FC<{ data: SkillsType | any }> = ({ data }) => {
   console.log(data);
-  const [activeTab, setActiveTab] = useState("soft");
+  const [activeTab, setActiveTab] = useState("hard");
   console.log("activeTab", data[activeTab]);
   const setBg = (active: string) =>
     activeTab === active ? "bg-yellow" : "bg-grey";
   const setAlinment = (active: string) =>
-    active === "soft" ? "text-left" : "text-right";
+    active === "hard" ? "text-left" : "text-right";
 
   const tabs = (
     <div className="flex">
-      {["soft", "hard"].map((el: string, i: number) => {
+      {["hard", "soft"].map((el: string, i: number) => {
         return (
           <button
             key={i}

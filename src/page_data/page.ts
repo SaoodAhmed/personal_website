@@ -35,14 +35,7 @@ export const aboutMe: AboutMEDataType = {
 };
 
 export const skills = {
-  soft: [
-    { icon: "💬 ", text: "Effective Communication" },
-    { icon: "👥 ", text: "Collaboration" },
-    { icon: "⽓ ", text: "Teamwork" },
-    { icon: "💡 ", text: "Creative Problem Solving" },
-    { icon: "👂🏼 ", text: "Active Listening" },
-    { icon: "⌛️ ", text: "Time management" },
-  ],
+ 
   hard: [
     { "icon": "⚛️ ", "text": "Next.js/React.js" },
     { icon: "🟢 ", text: "Node.js" },
@@ -53,7 +46,7 @@ export const skills = {
     { icon: "ʦ ", text: "Typescript" },
     { icon: "J͡S ", text: "Javascript" },
     { icon: "☕ ", text: "Java" },
-    { icon: "🐍 ", text: "Python(Data Atuomation/Scraping)" },
+    { icon: "🐍 ", text: "Python(Data Automation)"},
     { icon: "📈 ", text: "DSA" },
     { icon: "🔢 ", text: "C++" },
     { icon: "🔌 ", text: "API's" },
@@ -61,8 +54,16 @@ export const skills = {
     { icon: "🌧️ ", text: "Drizzle(ORM)" },
     { icon: "☁️ ", text: "Vercel" },
     { icon: "💳 ", text: "Stripe" },
-    { icon: "🤖 ", "text": "Agentic & Generative AI (Continue...)" }
+    { icon: "🤖 ", "text": "Agentic AI" }
 
+  ],
+   soft: [
+    { icon: "💬 ", text: "Effective Communication" },
+    { icon: "👥 ", text: "Collaboration" },
+    { icon: "⽓ ", text: "Teamwork" },
+    { icon: "💡 ", text: "Creative Problem Solving" },
+    { icon: "👂🏼 ", text: "Active Listening" },
+    { icon: "⌛️ ", text: "Time management" },
   ],
 };
 
