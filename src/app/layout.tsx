@@ -12,10 +12,10 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html>
+		<html style={{ fontFamily: 'Roboto, sans-serif' }}>
 			<head />
 
-			<body className='flex flex-col sm:flex-row'>
+			<body className='flex flex-col sm:flex-row' >
 				<Sidebar data={PersonalData} />
 				<main className='grow-full p-8 sm:p-16 w-full sm:basis-2/3  ml-auto'>
 					{children}

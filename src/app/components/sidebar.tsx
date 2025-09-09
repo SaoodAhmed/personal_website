@@ -6,6 +6,7 @@ import { Envelope } from "./icons/envlop";
 import { Linkedin } from "./icons/linkedin";
 import { IoLogoWhatsapp } from "react-icons/io";
 import Image from "next/image";
+import { BsGithub } from "react-icons/bs";
 
 interface PersonalDataType {
   name: string;
@@ -32,18 +33,21 @@ const Sidebar: React.FC<{ data: PersonalDataType }> = ({ data }) => {
         <p className="mb-5 leading-normal tracking-wider">{education[1]}</p>
         <div className="text-center mb-4 mt-4 sm:mt-8">
         </div>
-          <h3 className=" mx-auto">
+          <h2 className=" mx-auto">
             Contact me
-          </h3>
+          </h2>
           <div className="flex flex-row justify-center gap-2">
             <Link href={contactLinks[0]} aria-label="">
-              <Envelope className={"icons-contactme"} />
+              <Linkedin className={"icons-contactme"} />
             </Link>
             <Link href={contactLinks[1]} aria-label="">
+              <BsGithub className={"icons-contactme"} />
+            </Link>
+            <Link href={contactLinks[4]} aria-label="">
               <Twitter className={"icons-contactme"} />
             </Link>
             <Link href={contactLinks[2]} aria-label="">
-              <Linkedin className={"icons-contactme"} />
+              <Envelope className={"icons-contactme"} />
             </Link>
             <Link href={contactLinks[3]} aria-label="">
               <IoLogoWhatsapp className="icons-contactme" />

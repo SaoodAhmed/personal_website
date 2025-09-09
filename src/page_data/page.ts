@@ -18,74 +18,75 @@ export const PersonalData: PersonalDataType = {
     "Govt. Boys Degree College – Intermediate (Pre-Engineering) → April 2017 - May 2019",
   ],
   contactLinks: [
-    "mailto:emailto:saudahmed70434@gmail.com",
-	"https://twitter.com/SAUDAHM46283400",
     "https://www.linkedin.com/in/saud-ahmed-b20a8b206/",
+    "https://github.com/SaoodAhmed?tab=repositories",
+    "mailto:saudahmed70434@gmail.com",
     "https://wa.me/+923173926193",
+    "https://twitter.com/SAUDAHM46283400",
   ],
 };
 
 export const aboutMe: AboutMEDataType = {
   title: "About Me",
   body: [
-    "As a software engineer, I am deeply passionate about leveraging technology to create meaningful solutions and drive positive change. With a solid foundation in computer science, I possess a versatile skill set encompassing both technical expertise and effective communication abilities",
+    "As a software engineer, I am deeply passionate about leveraging technology to create meaningful solutions and drive positive change. With a solid foundation in software engineering field, I possess a versatile skill set encompassing both technical expertise and effective communication abilities",
     "I'm committed to continuous learning and staying updated with the latest industry trends. Whether it's tackling complex algorithms or finding creative solutions to UI/UX challenges, I embrace every opportunity to expand my skill set.",
   ],
 };
 
 export const skills = {
   soft: [
-    { icon: "👂🏼", text: "Active Listening" },
-    { icon: "💬", text: "Effective Communication" },
-    { icon: "👥", text: "Collaboration" },
-    { icon: "⽓", text: "Teamwork" },
-    { icon: "💡", text: "Creative Problem Solving" },
-    { icon: "⌛️", text: "Time management" },
+    { icon: "💬 ", text: "Effective Communication" },
+    { icon: "👥 ", text: "Collaboration" },
+    { icon: "⽓ ", text: "Teamwork" },
+    { icon: "💡 ", text: "Creative Problem Solving" },
+    { icon: "👂🏼 ", text: "Active Listening" },
+    { icon: "⌛️ ", text: "Time management" },
   ],
   hard: [
-    { icon: "N ➡️  ", text: "Next.js" },
-    { icon: "🚀", text: "React.js" },
-    { icon: "🟢JS  ", text: "Node.js" },
-    { icon: "💾", text: "PostgreSQL" },
-    { icon: "🧠", text: "Sanity (Headless CMS)" },
-    { icon: "🎨", text: "Shadcn/ui" },
-    { icon: "TW 🌬️ ", text: "Tailwind CSS" },
-    { icon: "ʦ", text: "TypeScript" },
-    { icon: "💻", text: "Javascript" },
-    { icon: "☕", text: "Java" },
-    { icon: "🐍", text: "Python" },
-    { icon: "📈", text: "Data Structures and Algorithms" },
-    { icon: "🔢", text: "C++" },
-    { icon: "🔌", text: "API's" },
-    { icon: "📈", text: "SEO" },
-    { icon: "🌧️", text: "Drizzle ORM" },
-    { icon: "☁️", text: "Vercel" },
-    { icon: "💳", text: "Stripe Payment Method" },
+    { "icon": "⚛️ ", "text": "Next.js/React.js" },
+    { icon: "🟢 ", text: "Node.js" },
+    { icon: "🐘 ", "text": "PostgreSQL" },
+    { icon: "🧠 ", text: "Headless CMS" },
+    { icon: "🎨 ", text: "Shadcn/ui" },
+    { icon: "🌬️ ", text: "Tailwind CSS" },
+    { icon: "ʦ ", text: "Typescript" },
+    { icon: "J͡S ", text: "Javascript" },
+    { icon: "☕ ", text: "Java" },
+    { icon: "🐍 ", text: "Python(Data Atuomation/Scraping)" },
+    { icon: "📈 ", text: "DSA" },
+    { icon: "🔢 ", text: "C++" },
+    { icon: "🔌 ", text: "API's" },
+    { icon: "📈 ", text: "SEO" },
+    { icon: "🌧️ ", text: "Drizzle(ORM)" },
+    { icon: "☁️ ", text: "Vercel" },
+    { icon: "💳 ", text: "Stripe" },
+    { icon: "🤖 ", "text": "Agentic & Generative AI (Continue...)" }
+
   ],
 };
 
 
 export const professionalData = {
-	title: "Professional Experience",
-	experiences: [
-		{
-			role: "Data Scientist, Acme Inc. (2021-Present)",
-			description:
-				"Design and implement machine learning models to analyze large datasets and drive business decisions. Collaborate with cross-functional teams to develop and launch new products and features. Provide technical guidance and mentorship to junior data scientists. Conduct regular presentations to stakeholders on the findings and insights generated from data analysis.",
-			current: true,
-		},
-
-		{
-			role: "Machine Learning Engineer, XYZ Corp. (2019-2021)",
-			description:
-				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
-			current: false,
-		},
-		{
-			role: "Machine Learning Engineer, ABX Corp. (2020-2021)",
-			description:
-				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
-			current: false,
-		},
-	],
+  title: "Professional Experience",
+  experiences: [
+    {
+      "role": "SDE At KENDUIT (Remote) — Nextjs/Reactjs, HTML, CSS, JS, Python(Data Automation/Scraping) (April 2024 - Present)",
+      "description": "Learned and implemented interactive layouts for US-based clients including custom WordPress theme development and integration. Contributed to a full-stack project by leveraging advanced front-end development skills. Developed user-friendly, responsive designs optimized for multiple devices. Gained hands-on experience in web scraping using Python libraries such as Selenium, BeautifulSoup, and Requests.",
+      "current": true,
+      
+    },
+    {
+      "role": "SDE Intern at Webnet — Nextjs/Reactjs, TS/JS, Dynamic Routes, APIs (Jan 2024 - March 2024)",
+      "description": "Learned and implemented existing websites on Next.js and explored its latest features (CSR, SSR, SSG, dynamic routing). Created Webnet’s new company website with a responsive front-end, API integration, and dynamic routing.",
+      "current": false,
+      
+    },
+    {
+      "role": "SDE Intern at PIAIC — Nextjs/Reactjs, TS/JS, APIs, Sanity (June 2022 - July 2023)",
+      "description": "Implemented advanced Next.js features (SSR, SSG, CSR, dynamic routing) and headless CMS integrations (Sanity, Contentful). Developed responsive, user-friendly front-ends and worked on a full-stack e-commerce project (authentication, search, cart, payments). Managed database tasks and built front-end components using Next.js/React.js, Tailwindcss, Shadcn UI, TS/JS, PostgreSQL, and Sanity.",
+      "current": false,
+      
+    },
+  ],
 };

@@ -43,9 +43,7 @@ const Skills: React.FC<{ data: SkillsType | any }> = ({ data }) => {
 
   const content = (
     <ul
-      className={`flex flex-row flex-wrap content-start list-none py-4 gap-2 ${
-        activeTab === "soft" ? "justify-start" : "justify-center items-center"
-      }`}
+      className={`flex flex-row flex-wrap content-start list-none py-4 gap-2 `}
     >
       {data[activeTab].map((el: any, i: number) => (
         <li key={i} className=" skill">
