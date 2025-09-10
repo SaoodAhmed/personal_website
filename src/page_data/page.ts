@@ -37,24 +37,23 @@ export const aboutMe: AboutMEDataType = {
 export const skills = {
  
   hard: [
-    { "icon": "⚛️ ", "text": "Next.js/React.js" },
+    { icon: "⚛️ ", text: "Next.js/React.js" },
     { icon: "🟢 ", text: "Node.js" },
-    { icon: "🐘 ", "text": "PostgreSQL" },
-    { icon: "🧠 ", text: "Headless CMS" },
-    { icon: "🎨 ", text: "Shadcn/ui" },
+    { icon: "🐘 ", text: "PostgreSQL" },
+    { icon: "🧠 ", text: "CMS(Headless)" },
+    { icon: "🎨 ", text: "ShadcnUI/Tailblocks" },
     { icon: "🌬️ ", text: "Tailwind CSS" },
+    { icon: "🐍 ", text: "Data Automation(Python)"},
     { icon: "ʦ ", text: "Typescript" },
     { icon: "J͡S ", text: "Javascript" },
     { icon: "☕ ", text: "Java" },
-    { icon: "🐍 ", text: "Python(Data Automation)"},
-    { icon: "📈 ", text: "DSA" },
+    
     { icon: "🔢 ", text: "C++" },
     { icon: "🔌 ", text: "API's" },
     { icon: "📈 ", text: "SEO" },
     { icon: "🌧️ ", text: "Drizzle(ORM)" },
     { icon: "☁️ ", text: "Vercel" },
-    { icon: "💳 ", text: "Stripe" },
-    { icon: "🤖 ", "text": "Agentic AI" }
+    { icon: "🤖 ", text: "Agentic AI(Cont...)" }
 
   ],
    soft: [
