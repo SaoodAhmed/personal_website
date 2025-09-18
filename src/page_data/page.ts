@@ -14,8 +14,8 @@ export const PersonalData: PersonalDataType = {
   name: "Saud Ahmed",
   role: "Software Engineer",
   education: [
-    "Mehran University Of Engineering & Technology – BE in Software Engineering → September 2019 - November 2023",
-    "Govt. Boys Degree College – Intermediate (Pre-Engineering) → April 2017 - May 2019",
+    "Mehran UET – BE in Software Engineering → Sep 2019 - Nov 2023",
+    "Govt. Boys Degree College – Interm. (Pre-Engr.) → April 2017 - May 2019",
   ],
   contactLinks: [
     "https://www.linkedin.com/in/saud-ahmed-b20a8b206/",
@@ -35,19 +35,21 @@ export const aboutMe: AboutMEDataType = {
 };
 
 export const skills = {
- 
+
   hard: [
     { icon: "⚛️ ", text: "Next.js/React.js" },
     { icon: "🟢 ", text: "Node.js" },
     { icon: "🐘 ", text: "PostgreSQL" },
     { icon: "🧠 ", text: "CMS(Headless)" },
     { icon: "🎨 ", text: "ShadcnUI/Tailblocks" },
+    { icon: "🔁 ", text: "Redux.js" },
     { icon: "🌬️ ", text: "Tailwind CSS" },
-    { icon: "🐍 ", text: "Data Automation(Python)"},
+    { icon: "🐍 ", text: "Data Automation(Python)" },
     { icon: "ʦ ", text: "Typescript" },
     { icon: "J͡S ", text: "Javascript" },
+    { icon: "🌐 ", text: "WordPress" },
     { icon: "☕ ", text: "Java" },
-    
+
     { icon: "🔢 ", text: "C++" },
     { icon: "🔌 ", text: "API's" },
     { icon: "📈 ", text: "SEO" },
@@ -56,7 +58,7 @@ export const skills = {
     { icon: "🤖 ", text: "Agentic AI(Cont...)" }
 
   ],
-   soft: [
+  soft: [
     { icon: "💬 ", text: "Effective Communication" },
     { icon: "👥 ", text: "Collaboration" },
     { icon: "⽓ ", text: "Teamwork" },
@@ -71,22 +73,22 @@ export const professionalData = {
   title: "Professional Experience",
   experiences: [
     {
-      "role": "SDE At KENDUIT (Remote) — Nextjs/Reactjs, HTML, CSS, JS, Python(Data Automation/Scraping) (April 2024 - Present)",
-      "description": "Learned and implemented interactive layouts for US-based clients including custom WordPress theme development and integration. Contributed to a full-stack project by leveraging advanced front-end development skills. Developed user-friendly, responsive designs optimized for multiple devices. Gained hands-on experience in web scraping using Python libraries such as Selenium, BeautifulSoup, and Requests.",
-      "current": true,
-      
+      "role": "SDE At KENDUIT (US Remote) — April 2024 - Present",
+      "description": "Developed responsive websites using HTML, CSS & js also, converted existing static HTML into Next.js/React.js applications. Built end-to-end sites from scratch with custom WordPress theme development and integration. Implemented data automation and web-scraping pipelines in Python using Selenium, BeautifulSoup, and Requests to extract, clean, and integrate data. Collaborated on full-stack projects, optimized cross-device performance and accessibility, and delivered interactive, user-friendly layouts.",
+      "current": true
+    },
+
+    {
+      "role": "SDE Intern at Webnet — Jan 2024 - March 2024",
+      "description": "Learn and Implement existing websites from HTML to Reactjs/Nextjs also, explored Nextjs latest features e.g, CSR, SSR, SSG, Dynamic Routes also, integrate API's.",
+      "current": false,
+
     },
     {
-      "role": "SDE Intern at Webnet — Nextjs/Reactjs, TS/JS, Dynamic Routes, APIs (Jan 2024 - March 2024)",
-      "description": "Learned and implemented existing websites on Next.js and explored its latest features (CSR, SSR, SSG, dynamic routing). Created Webnet’s new company website with a responsive front-end, API integration, and dynamic routing.",
+      "role": "SDE Intern at PIAIC — June 2022 - July 2023",
+      "description": "Learn & Explore advanced Nextjs/Reactjs features e.g, SSR, SSG, CSR, Dyanmic Routes, API's along with Headless CMS integrations(Sanity, Contentful). Developed responsive, user-friendly Figma layouts into Nextjs/Reactjs also, worked on a full-stack E-Commerce projects (Authentication, Filtering, Cart, Payment methods, Api's integration). Managed database tasks & built UI components using Next.js/React.js, Tailwindcss, Shadcn UI/Tailblock, TS/JS, PostgreSQL and Sanity.",
       "current": false,
-      
-    },
-    {
-      "role": "SDE Intern at PIAIC — Nextjs/Reactjs, TS/JS, APIs, Sanity (June 2022 - July 2023)",
-      "description": "Implemented advanced Next.js features (SSR, SSG, CSR, dynamic routing) and headless CMS integrations (Sanity, Contentful). Developed responsive, user-friendly front-ends and worked on a full-stack e-commerce project (authentication, search, cart, payments). Managed database tasks and built front-end components using Next.js/React.js, Tailwindcss, Shadcn UI, TS/JS, PostgreSQL, and Sanity.",
-      "current": false,
-      
+
     },
   ],
 };
