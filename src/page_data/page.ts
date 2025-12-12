@@ -38,24 +38,27 @@ export const skills = {
 
   hard: [
     { icon: "⚛️ ", text: "Next.js/React.js" },
+    { icon: "🧠", text: "AI-Driven Development" },
+    { icon: "🧩", text: "CMS (Headless)" },
+{ icon: "🐍 ", text: "Data Automation(Python)" },
+{ icon: "⚙️", text: "n8n (Workflow Automation)" },
+
     { icon: "🟢 ", text: "Node.js" },
+    
     { icon: "🐘 ", text: "PostgreSQL" },
-    { icon: "🧠 ", text: "CMS(Headless)" },
     { icon: "🎨 ", text: "ShadcnUI/Tailblocks" },
     { icon: "🔁 ", text: "Redux.js" },
     { icon: "🌬️ ", text: "Tailwind CSS" },
-    { icon: "🐍 ", text: "Data Automation(Python)" },
+    
     { icon: "ʦ ", text: "Typescript" },
     { icon: "J͡S ", text: "Javascript" },
     { icon: "🌐 ", text: "WordPress" },
     { icon: "☕ ", text: "Java" },
 
     { icon: "🔢 ", text: "C++" },
-    { icon: "🔌 ", text: "API's" },
-    { icon: "📈 ", text: "SEO" },
-    { icon: "🌧️ ", text: "Drizzle(ORM)" },
-    { icon: "☁️ ", text: "Vercel" },
-    { icon: "🤖 ", text: "Agentic AI(Cont...)" }
+    { icon: "⚡", text: "FastAPI" },
+   
+   
 
   ],
   soft: [
